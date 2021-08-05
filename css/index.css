@@ -1,0 +1,484 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;font-family: 'Asap', sans-serif;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+a:focus{color:none;outline: none!important;}
+
+
+
+/*header start */
+
+
+/*bs4 header*/
+
+.top-bar {  width:100%;padding:15px 0;background:#00203f;  }
+.hlefticon {margin-left: -15px;}
+.top-bar ul.social-custom {    margin-left: 20px;}
+.top-bar ul {  display:inline-block;width:100%;  margin-bottom: 0;}
+.hlefticon ul li{display:inline-block; width:55px;   /* margin-right: 10px; */}
+.hlefticon ul li a{display:inline-block;text-decoration:none;/* margin-right:10px; */}
+.hlefticon ul li a i{display:inline-block;color:#fff;font-size:22px;line-height:28px;background:#479600;border:#00203f solid 2px;border-radius:25px;padding:2px 15px;}
+.top-bar a.login-btn i, .top-bar a.signup-btn i {    margin-right: 10px;}
+i.fa.fa-facebook {    padding: 2px 18px;}
+.hlefticon ul li a:hover i{background:#478249;color:#ff9600;border:#ff9600 solid 2px;}
+.hrighticon{float:right;width:100%;      text-align: end; margin-right:-15px;}
+.hrighticon ul li{margin-left:5px;margin-right:0;width:55px;}
+i.fa.fa-user, i.fa.fa-lock     {padding: 2px 18px;}
+.top-bar ul.social-custom a:hover {    background: #4fbfa8;    color: #fff;}
+.top-bar ul.social-custom a {    text-decoration: none !important;    font-size: 0.7rem;    width: 26px;    height: 26px;    line-height: 26px;    color: #999;    text-align: center;    border-radius: 50%;    margin: 0;}
+
+
+/*menu list nav start */
+
+.btn-outline-light {    color: #000;    border-color: #4f9600;background: #479600;}
+.btn-outline-light:hover{    background: #478249;    color: #ff9600;   /*  border: #ff9600 solid 2px; */}
+.navbar{padding:0;}
+.navbar-brand img{width: 60%;    margin-left: -15px;}
+.menulist{margin-left:0;    padding-top: 10px;}
+.menulist ul  {     padding-left: 20px;}
+.menulist li  { display:inline-block;position:relative;}
+.menulist li a {    color: #000!important;    font-size: 22px;   line-height: 28px;    font-weight: 600;}
+.menulist li a:hover {    color: #ff9600!important;}
+
+.menulist ul li a:hover:after {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: -9px;    bottom: 0;   left: 40px;height: 22px;}
+.menulist ul li a:hover:before {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: 38px;    bottom: 0;    left: 40px;    height: 22px;}
+
+.menulist ul .menucourse a:hover:after {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: -9px;    bottom: 0;   left: 50px;height: 22px;}
+.menulist ul .menucourse a:hover:before {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: 38px;    bottom: 0;    left: 50px;    height: 22px;}
+
+.menulist ul .menutestimonials a:hover:after {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: -9px;    bottom: 0;   left: 65px;height: 22px;}
+.menulist ul .menutestimonials a:hover:before {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: 38px;    bottom: 0;    left:65px;    height: 22px;}
+
+.menulist ul .menucontact a:hover:after {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: -9px;    bottom: 0;   left: 60px;height: 22px;}
+.menulist ul .menucontact a:hover:before {    content: "";    position: absolute;    border-right: #478249 solid 2px;    top: 38px;    bottom: 0;    left:60px;    height: 22px;}
+
+
+
+/*banner start*/
+.banner{/* display:inline-block; */width:100%;}
+.bannersliderclick{ text-decoration:none;   opacity: 1;}
+.glyphicon-chevron-left:before{display:none;}
+.glyphicon-chevron-right:before{display:none;}
+.heronext,.heroprev{    top: 45%;    bottom: 45%;}
+span.glyphicon.glyphicon-chevron-left.leftclick {    display: inline-block;width: 30%;    height: auto;}
+span.glyphicon.glyphicon-chevron-right.rightclick {    display: inline-block;width: 30%;    height: auto;}
+.leftclick i{font-size:40px;line-height:46px;/* background:#ff9600 */border:#ff9600 solid 2px;border-radius:50px;padding:2px 14px;text-align:center;display:inline-block;color: #ff9600;}
+.rightclick i{font-size:40px;line-height:46px;/* background:#ff9600; */border:#ff9600 solid 2px;border-radius:50px;padding:2px 14px;text-align:center;display:inline-block;color: #ff9600;}
+.leftclick:hover i{background:#478249;}
+.rightclick:hover i{background:#478249;}
+.circlebottom{bottom: 100px;}
+.circlebottom li {     border-radius: 25px;    background: none;   width: 20px;    height: 20px;border: #479600 solid 2px;}
+.circlebottom li.active {background:#479600; border-radius: 25px;   width: 20px;    height: 20px;border: #479600 solid 2px;}
+.bannertext{width:70%;padding-bottom:0;padding-top:0;position:absolute;left:53%;top:60%;right:0;bottom:0;transform:translate(-53%, -60%);}
+.bannertext h1{font-family:TeX Gyre Adventor;color:#fff;font-size:68px;line-height:74px;font-weight:500;text-shadow:0 0 0 #fff;font-style:italic;}
+.bannertext p{display: inline-block;color:#fff;font-size:24px;line-height:38px;font-weight:400;text-shadow:0 0 0 #fff; margin-top:15px;}
+.hbanneranchor{display:inline-block;width:100%;text-align:center;    margin-top: 30px;}
+.hbanneranchor a{display:inline-block;    border-radius: 10px;font-size:26px;line-height:32px;font-weight:400;color:#fff;background:#00203f;padding: 10px 25px;text-decoration:none;/* border: solid 3px #479600; */text-shadow: 1px 1px 1px #000000;}
+.hbanneranchor a:hover{background:#479600;}
+
+/*about us start*/
+.aboutus{display:inline-block;width:100%;margin-top:80px;}
+.media-body{display: inline-block;margin-left: -7px;      padding-right:20px;  margin-right: -15px;}
+.heading h2{ display: inline-block;width:100%;text-align:center;font-family:TeX Gyre Adventor;color:#000;    font-size: 52px;line-height:54px;    font-weight: 600;}
+.media-body p {    display: inline-block;    margin-top: 28px;    font-size: 20px;    line-height: 30px;text-align: center;    padding-right: 10px;}
+.media img{width:48%;border-radius:100px ;}
+
+
+
+
+/*bs4* course start*/
+.courses{display: inline-block;    width: 100%;margin-top:80px;}
+.box{    padding:30px 0px;}
+.box-part .title strong{display: inline-block;    width: 100%;text-align: center;    font-size: 21px;    line-height: 30px;color:#000;    font-weight: 600;}
+.box-part .text span{display: inline-block;    width: 100%;text-align: center;    font-size: 14px;    line-height: 22px;color:#5f5e5e;    font-weight: 600;margin:5px 0;}
+.courseimg {      margin-bottom: 10px;  display: inline-block;    width: 100%;}
+.courseimg img{    border-radius: 10px;display: inline-block;    width: 100%;    max-width: 100%;}
+.box-part a {display: inline-block;text-decoration:underline; font-size: 22px;    line-height: 30px;color:#479600;   font-weight: 600;}
+.box-part a:hover{ color:#00203f;}
+.box-part{    background:none;    border-radius:0;    padding:0;        margin-left:-15px;    margin-right:0;}
+.box-part.lastcourse{margin-left:0;  margin-right: -15px;  }
+.fa{     color:#4183D7;}
+
+
+
+/*banner course*/
+.coursebanner{display:inline-block;width:100%;margin-top:60px;}
+.nopadding{padding:0;}
+.cbleft{      padding: 60px 0;min-height: 500px; background:#479600;}
+.cbleft span {       padding: 0 95px; display: inline-block;    width: 100%;    font-size: 38px;    line-height: 46px;    text-align: center;    color: #fff;    font-weight: 500;}
+.cbleft strong {    color: #ff9600;    font-weight: 600;font-size:42px;line-height:48px;    font-style: italic;}
+.cbleft p {    padding: 0 40px;  margin-top: 30px;  color: #fff;    font-size: 20px;    line-height: 30px;    text-align: center;    font-weight: 400;}
+.cbanchor a{text-shadow:none;font-weight:500; color:#fff;/* border: solid 3px #00203f */;background: #479600;    border-radius: 10px;}
+.cbanchor a:hover{background: #00203f;color:#fff;}
+.banneranchor{display:inline-block;width:100%;text-align:center;    margin-top: 30px;}
+.banneranchor a{display:inline-block;    border-radius: 10px;font-size:26px;line-height:32px;font-weight:400;color:#fff;background:#00203f;padding: 10px 25px;text-decoration:none;border: solid 3px #479600;text-shadow: 1px 1px 1px #000000;}
+.banneranchor a:hover{background:#479600;}
+.cbright{ background-image:url(../images/coursebannerpic.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;min-height:500px;display:inline-block;width:100%;   padding:60px 70px 0;}
+.formheading{display: inline-block;    width: 100%;text-align:center; }
+.formheading h4{display: inline-block;font-size: 38px;      text-shadow: 1px 1px 2px #000 ;line-height: 46px;    text-align: center;    color: #fff;    font-weight: 500;}
+.cbright form {margin: 35px 0;}
+.form-group {margin-bottom: 25px;}
+.form-control{border:none;height: 50px;}
+.csearchbutton{border: none;background: #00203f; display: inline-block;    width: 100%;     font-size: 26px;    line-height:45px;    font-weight: 400;  border-radius: 10px;}
+.csearchbutton:hover{background:#479600;/* border: solid 3px #479600; */}
+
+/*staff code start*/
+.staff{  display: inline-block;    width: 100%;margin-top: 60px;}
+.staffarea{margin-top:55px;}
+.stuti{position:relative;display: inline-block;    width: 100%;}
+.stuti img{display: inline-block; max-width:100%;   width: 100%;}
+.staffdetail{position:absolute; bottom: 0;    left: 0;    right: 0;    background: #479600;    text-align: center;padding: 10px 10px;    box-shadow: 1px 1px 10px #7d7575;}
+.staffdetail span{display: inline-block;   width: 100%;  color: #fff;    font-size: 26px;    line-height: 30px;    font-weight: 500;    font-style: oblique;}
+.staffdetail p {    display: inline-block;    width: 100%;    color: #fff;    font-size: 16px;   font-weight: 400;line-height: 24px;}
+
+/*why us */
+.whyus{display: inline-block;    width: 100%;margin-top: 65px;}
+.whyarea{margin-top:40px;}
+.whydetail .card{border:none ;}
+.card-body.text-center {padding: 10px;}
+.whydetail .bg-primary{background:none !important;}
+.whydetail{display:inline-block;text-align:center;margin-bottom: 30px;}
+.whydetail i{display:block; color: #ff9600;    font-size: 66px;    line-height: 72px;}
+.whydetail span {   margin:5px 0 10px; display: block;    font-size: 28px;    line-height: 38px;    font-weight: 500;color: #000;}
+.whydetail p{  padding: 0 15px;  display: block;    font-size: 16px;    line-height: 26px;    font-weight: 400;color: #887b7b;}
+i.fa.fa-css3 {font-size: 60px;}
+
+/*gallery */
+.gallery{display: inline-block;    width: 100%;margin-top: 65px;}
+
+
+.gallery-container h1 {    text-align: center;    margin-top: 50px;    font-family: 'Droid Sans', sans-serif;    font-weight: bold;}
+/* .gallery-container p.page-description {    text-align: center;    margin: 25px auto;    font-size: 18px;    color: #999;} */
+.tz-gallery {    padding: 40px 0;}
+/* Override bootstrap column paddings */
+.tz-gallery .lightbox img {    width: 100%;    border-radius: 0;    position: relative;}
+/* .tz-gallery .lightbox:before {    position: absolute;    top: 50%;    left: 50%;    margin-top: -13px;    margin-left: -13px;    opacity: 0;    color: #fff;    font-size: 26px;    font-family: 'Glyphicons Halflings';    content: '\e003';    pointer-events: none;    z-index: 9000;    transition: 0.4s;} */
+
+.tz-gallery .lightbox:after {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    opacity: 0;    background-color: rgba(46, 132, 206, 0.7);    content: '';    transition: 0.4s;}
+.tz-gallery .lightbox:hover:after/* .tz-gallery .lightbox:hover:before */ {    opacity: 1;}
+.baguetteBox-button {    background-color: transparent !important;}
+@media(max-width: 768px) {
+    body {        padding: 0;    }
+}
+
+
+/*testimonials start*/
+.reviews { background-image:url(../images/testimonial.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;min-height:500px;   display: inline-block;    width: 100%;margin-top: 40px;position:relative;}
+.testimonialsheading {margin-top: 30px;}
+.testimonialsheading h2 {color:#fff;}
+
+.wrapper {  position: relative;/* moves the wrapper up on y axis */  /* transform: translateY(-50%); */  top: 50%;  margin: 0 auto;   overflow: hidden;}
+.wrapper p {  position: absolute;  left: 100%;  width: 100%;  font-size: 24px; line-height:34px;    font-weight: 500; color: #fff;  top: 0;  opacity: 0;  transition: left 1.8s, opacity 0.5s ease;}
+.wrapper p.activeText {  position: relative;  left: 0;  opacity: 1;}
+.wrapper p.slideLeft {  left: -100%;  opacity: 0.1;}
+.wrapper p:before {  content: "\201C";  font-size: 3em;  line-height: 0.1em;  margin-right: 0.1em;  vertical-align: -0.4em;}
+.wrapper p:after {  content: "\201D";  font-size: 3em;  line-height: 0.1em;  margin-left: 0.1em;  vertical-align: -0.45em;}
+.testimonialsarea ul {  margin: 0;  padding: 0;  text-align: center;margin-top:50px;}
+.testimonialsarea ul li {  list-style: none;}
+.dot {  width: 25px;  height: 25px;  border-radius: 100px;  border: #ff9600 solid 2px;  display: inline-block;  text-align: center;  cursor: pointer;}
+.dot .active {  background: #ff9600;  }
+.testimonialsarea {  display:inline-block;  width: 100%;    margin-top: 40px;   /*  padding-top: 80px; */}
+.feedback {    display: inline-block;    width: 100%;    /* margin-bottom: 40px; */}
+
+/*contact us*/
+.quircontact{display: inline-block;    width: 100%;margin-top: 65px;}
+.map-container{overflow:hidden;margin-left: -15px;position:relative;height:0;border-radius: 10px;}
+.map-container iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
+.map-details{display: inline-block;    width: 100%;margin-top: 45px;}
+
+.contactmap { display: flex;    justify-content: center;   margin-bottom: 40px;}
+.contactmap i{     margin-left: -15px; font-size: 39px; color:#ff9600;   /* display: inline-block;    width: 100%; */       margin-right: 15px;}
+.contactdetail {display: inline-block;    width: 100%;}
+.contactdetail strong {    margin-bottom: 8px;    display: inline-block;    width: 100%;  line-height:30px;  font-size: 28px;font-weight: 500;}
+.contactdetail span{    display: inline-block;    width: 100%; line-height:28px ;  font-size: 18px;font-weight: 400;}
+.contactdetail a{    display: inline-block;    width: 100%; line-height:28px ;  font-size: 18px;font-weight: 400;text-decoration:none;color:#000;}
+.contactmap i.fa.fa-envelope {font-size: 30px;}
+.contactmedia{ display: inline-block;    width: 100%; }
+.contactright{   margin-left:-15px;  padding: 15px 0;/* display: inline-block;    width: 100%;  */}
+.contactmedia ul{text-align:left; display: inline-block;    width: 100%; }
+.contactmedia ul li{     margin: 0 15px; display: inline-block;}
+.contactmedia ul li i{     font-size: 38px;line-height:42px;color:#ff9600;display: inline-block;}
+.contactmedia ul li a{text-decoration:none; display: inline-block;}
+.contactmedia ul li a:hover i{color:#479600;}
+
+  /* bs4 footer*/
+.footabout{text-align: justify; display: inline-block;    width: 100%;margin-left:-15px;}
+.footlogo{ padding-bottom:10px;display: inline-block;    width: 80px;}
+.footabout img{ display: inline-block;    width: 100%;max-width:100%;}
+.footabout p {    font-size: 16px;   line-height: 24px;    color: #000;    font-weight: 500;}
+.footmenu{display:inline-block;width:100%;    padding-left: 50px;}
+.footmenu h5{font-size: 35px;  padding-top: 20px;  line-height: 40px;    font-weight: 500;    color: #000;    display: inline-block;}
+.footmenu ul{padding-top: 30px;width:100%;display: inline-block;}
+.footmenu ul li{width:100%;display: inline-block;}
+.footmenu ul li a{text-decoration:none;display: inline-block;   margin-bottom:10px; font-size: 20px;    line-height: 32px;    color: #000;    font-weight: 500;}
+.footmenu ul li a:hover{color:#479600;}
+
+.copyright{border-top:solid 1px #c58f00;display: inline-block;  text-align:center;  width: 100%;margin-top:25px;}
+.copyright small{color:#000;font-size:18px;line-height:50px;font-weight:400;} */
+
+  /* bs4 footer*/
+  /* Footer */
+  
+  
+  .footabout{text-align: justify; display: inline-block;    width: 100%;margin-left:-15px;}
+  .footlogo{ padding-bottom:10px;display: inline-block;    width: 80px;}
+.footabout img{ display: inline-block;    width: 100%;max-width:100%;}
+.footabout p {    font-size: 16px;   line-height: 24px;    color: #000;    font-weight: 500;}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* section {    padding: 30px 0;} */
+
+/* section .section-title {    text-align: center;    color: #007b5e;    margin-bottom: 50px;    text-transform: uppercase;} */
+#footer {  margin-top: 65px;padding: 30px 0 0 0; background:#ff9600 !important;}
+#footer h5{	font-size: 35px;  padding-top: 20px;  line-height: 40px;    font-weight: 500;    color: #000;    display: inline-block;}
+#footer a {    color: #ffffff;    text-decoration: none !important;    background-color: transparent;    -webkit-text-decoration-skip: objects;}
+#footer .footmenu  ul{padding-top: 30px;width:100%;display: inline-block;}
+#footer .footmenu ul li{width:100%;display: inline-block;}
+#footer .footmenu ul li a{text-decoration:none;display: inline-block;   margin-bottom:10px; font-size: 20px;    line-height: 32px;    color: #000;    font-weight: 500;}
+#footer .footmenu ul li a:hover{color:#479600;}
+#footer .copyright{border-top:solid 1px #c58f00;display: inline-block;  text-align:center;  width: 100%;margin-top:25px;}
+#footer .copyright small{color:#000;font-size:18px;line-height:50px;font-weight:400;}
+
+
+@media (max-width:767px){
+#footer h5 {    padding-left: 0;    border-left: transparent;    padding-bottom: 0px;    margin-bottom: 10px;}
+}
+@media screen and (max-width:1500px){
+.cbleft span{padding:0 65px;}
+.cbleft p{padding:0 25px;}
+}
+@media screen and (max-width:1430px){
+.cbleft span{padding:0 45px;}
+.cbleft p{padding:0 15px;    font-size: 18px;    line-height: 26px;}
+}
+@media screen and (max-width:1270px){
+.cbleft span{padding:0 25px;}
+.cbleft p{padding:0 15px;    font-size: 18px;    line-height: 26px;}
+}
+
+@media screen and (max-width:1199px){
+				.bannertext h1{font-size:44px;line-height:54px;}
+	.bannertext p{font-size:32px;line-height:42px;margin-top:5px;}
+.leftclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 2px 10px;    font-size: 23px;line-height: 30px;}
+.rightclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 2px 10px;    font-size: 23px;line-height: 30px;}
+.circlebottom{display:none;}
+.bannertext {    top: 45%;    transform: translate(-53%, -45%);}
+.hbanneranchor{margin-top:35px;}
+.hbanneranchor a {font-size: 26px;    padding: 6px 18px ;  line-height: 36px;}
+	
+	.hlefticon {    margin-left: -15px;}
+	.hrighticon{margin-right:-15px;}
+	
+.hlefticon{margin-left:0;}
+.hrighticon{margin-right:0;}
+.navbar-brand img{margin-left:0;}
+
+
+.aboutus {margin-top:50px;}
+.media-body{margin-left:0;padding-right:1px;}
+.media-body p {margin-top: 18px;font-size: 17px;    line-height: 24px;}
+.media img {    border-radius: 60px;}
+
+.box-part .title strong {    font-size: 18px;}
+.box-part .text span{    font-size: 13px;font-weight: 400;}
+.box-part a {font-size: 20px;}
+
+
+.courses{margin-top:50px;}
+.cbleft {padding:55px 0;}
+.cbleft span { font-size: 30px;line-height: 39px;}
+ .cbleft p{  font-size: 16px;line-height: 22px;}
+.banneranchor a {font-size: 22px;}
+.formheading h4{font-size: 34px;line-height: 39px;}
+
+.reviews {min-height:420px;}
+.whydetail i {font-size:60px;}
+.whydetail span {    font-size: 25px;    line-height: 32px;}
+.whydetail p {font-size: 15px;    line-height: 20px;}
+.whydetail{margin-bottom:2px;}
+.wrapper p {    font-size: 20px;    line-height: 30px;}
+.testimonialsarea ul {    margin-top: 20px;}
+.testimonialsarea {    margin-top: 25px;}
+	
+	
+.cbleft span{padding:0 25px;}
+.cbleft p{padding:0 15px;    font-size: 18px;    line-height: 26px;}
+
+.footabout{margin-left:0;}
+.footabout p {    font-size: 15px;line-height: 22px;}
+}
+
+@media screen and (max-width:991px){
+			.bannertext h1{font-size:40px;line-height:50px;}
+	.bannertext p{font-size:28px;line-height:38px;margin-top:5px;}
+.leftclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 2px 10px;    font-size: 23px;line-height: 30px;}
+.rightclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 2px 10px;    font-size: 23px;line-height: 30px;}
+.circlebottom{display:none;}
+.bannertext {    top: 45%;    transform: translate(-53%, -45%);}
+.hbanneranchor{margin-top:15px;}
+.hbanneranchor a {font-size: 18px;    padding: 6px 18px ;  line-height: 26px;}
+	
+	.hlefticon {    margin-left: -15px;}
+	.hrighticon{margin-right:-15px;}
+	
+	.menulist li a {    font-size: 20px;}
+	.heading h2{    font-size: 40px;    line-height: 46px;}
+	.media-body p {margin-top:15px;font-size:15px;}
+	.media-body p span{display:none;}
+	
+	.box{padding:30px 0 10px;}
+	.box-part{margin-bottom:30px;}
+	
+	.coursebanner {margin-top:20px;}
+	.cbleft {min-height:400px;}
+	.cbleft{padding:30px 0;}
+	.cbleft span {    padding: 0 70px;}
+	
+	.staff{margin-top:35px;}
+	.staffarea{margin-top:35px;}
+	.stuti{margin-bottom: 40px;}
+	
+	.whyus {margin-top: 30px;}
+	.whyarea{margin-top: 20px;}
+	.whydetail i {    font-size: 50px;}
+	.whydetail span {    font-size: 23px;    line-height: 28px;}
+	.whydetail p{padding:0;}
+	i.fa.fa-css3{font-size:48px;}
+		.whydetail{margin-bottom:0;}
+		
+	.gallery{margin-top: 30px;}
+	
+	.map-container{margin-left:0;}
+	.contactmap i {font-size:32px;}
+	.contactdetail strong  {font-size:24px;margin-bottom:0;}
+	.contactmap i.fa.fa-envelope {    font-size: 28px;}
+	.contactdetail span {    line-height: 18px;    font-size: 13px;}
+	.contactmedia ul li {    margin: 0 13px;}
+	.contactright{margin-left:0;}
+	
+	
+	.footmenu{padding-left:0;text-align:center;}
+	#footer h5{font-size:32px;padding-top:15px;}
+	#footer .footmenu ul {padding-top:10px;}
+	#footer .footmenu ul li{width:100px;}
+	#footer .footmenu ul li a {  margin-bottom:0;  font-size: 18px;}
+	#footer .footmenu ul .ftesti {    width: 140px;}
+	
+	#footer .copyright{margin-top:10px;}
+	#footer .copyright small{font-size:15px;}
+
+
+}
+
+@media screen and (max-width:767px){
+		.bannertext h1{font-size:28px;line-height:36px;}
+	.bannertext p{font-size:20px;line-height:28px;margin-top:5px;}
+.leftclick i,.rightclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 0px 8px;    font-size: 20px;line-height: 28px;}
+.circlebottom{display:none;}
+.bannertext {    top: 45%;    transform: translate(-53%, -45%);}
+.hbanneranchor{margin-top:15px;}
+.hbanneranchor a {font-size: 18px;    padding: 6px 18px ;  line-height: 26px;}
+	
+	.top-bar{padding:10px 0 0 0;}
+	.hlefticon{text-align:center;    margin-bottom: 10px;}
+	.hrighticon{text-align:center;    }
+	.navbar-toggler{background-color: #479600;    border:none;}
+	
+	.aboutus{margin-top: 20px;}
+	.media-body p{font-size:18px;line-height:24px;}
+	.media{flex-direction: column;}
+	.media-body{margin-bottom: 20px;}
+	.media img {margin-left:0!important;    width: 100%;}
+	.ml-3, .mx-3{}
+	
+	.box-part .title strong {    font-size: 20px;}
+	.box-part .text span {    font-size: 14px;}
+
+	.whydetail i {      line-height: 55px;  font-size: 40px;}
+	i.fa.fa-css3 {    font-size: 40px;}
+	.whydetail span { font-size: 18px;}
+	.whydetail p {    font-size: 13px;}
+	.whydetail .bg-primary{margin-bottom:0;}
+	.tz-gallery{padding:40px 0 10px;}
+	
+	.cbleft span {    font-size: 26px;	}
+	.cbleft strong{font-size:38px;}
+	.cbleft p{font-size:16px;margin-top: 20px;}
+	.banneranchor {    margin-top: 20px;}
+	.cbleft {    min-height: 375px;}
+	.banneranchor a {    font-size: 20px;}
+	.cbright{      min-height: 440px;  padding: 40px 70px 0;} 
+	
+	
+	.contactdetail strong {    font-size: 20px;}
+	
+	.wrapper p {    font-size: 16px;    line-height: 22px;}
+	.testimonialsarea ul {    margin-top: 10px;}
+	
+	#footer h5 {line-height:30px;margin-bottom:0;    font-size: 24px;}
+	#footer .footmenu ul li {    width: 85px;}
+	
+}
+
+@media screen and (max-width:576px){
+	.bannertext h1{font-size:18px;line-height:26px;}
+	.bannertext p{font-size:14px;line-height:20px;margin-top:5px;}
+.leftclick i,.rightclick i { font-weight:500;    border: #ff9600 solid 3px;   padding: 0px 8px;    font-size: 18px;line-height: 26px;}
+.circlebottom{display:none;}
+.bannertext {    top: 35%;    transform: translate(-53%, -35%);}
+.hbanneranchor{margin-top:15px;}
+.hbanneranchor a {font-size: 16px;    padding: 6px 18px ;  line-height: 24px;}
+
+	
+	
+	.hlefticon{margin-left:0;}
+	.hlefticon ul li{width:50px;}
+	.hlefticon ul li a i {font-size: 17px;    line-height: 20px;}
+	.navbar-brand img {    width: 40%;}
+	.heading h2 {    font-size: 34px;    line-height: 40px;}
+	.menulogo {    display: inline-block;    width: 100%;}
+	
+	.media-body{margin-right:0;margin-left:15px;}
+	
+	.box-part{margin-left:0;}
+	.box-part.lastcourse{margin-right:0;}
+	
+	.cbleft span {     font-size: 22px;line-height:30px;   padding: 0 15px;}
+	.cbleft strong {    font-size: 32px;}
+	.cbleft p {    font-size: 14px;    margin-top: 10px;}
+	.cbright {    padding: 40px 15px 0;}
+	.form-control{height: 40px;}
+	.cbright form {    margin: 20px 0;}
+	.csearchbutton {font-size: 22px;    line-height: 35px;}
+	.cbright {    min-height: 380px;}
+	
+	.whyus {    margin-top: 20px;}
+	.whydetail i {    line-height: 50px;}
+	.whydetail span {    margin: 5px 0 5px;}
+	.whydetail p {    font-size: 14px;}
+	
+	.coursebanner {    margin-top: 10px;}
+	
+	.staff,.staffarea{    margin-top: 20px;}
+	
+	.whyus {margin-top:0;}
+	.whyarea{margin-top:10px;}
+	
+	.dot {    width: 20px;    height: 20px;}
+	
+	.gallerypictures { padding: 5px 10px;}
+	
+	.contactmap{margin-bottom:25px;}
+	.quircontact{margin-top:20px;}
+	.map-details{margin-top:20px;}
+	.contactmedia ul li {    margin: 0 11px;}
+	
+	.wrapper p {    font-size: 14px;}
+	.googlemap{height:200px!important;}
+	
+	#footer {margin-top:20px;}
+	#footer h5{    font-size: 21px;    line-height: 26px;}
+	#footer .footmenu ul li a{font-size:16px;}
+	#footer .footmenu ul li {    width: 80px;}
+	#footer .footmenu ul .ftesti {    width: 100px;}
+
+}
